@@ -1,0 +1,27 @@
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({
+      startOnLoad: false,
+      securityLevel: "loose",
+      theme: "base",
+      themeVariables: {
+        fontFamily: "Georgia, 'Times New Roman', serif",
+        fontSize: "16px",
+        primaryColor: "#cfe2f3",
+        primaryBorderColor: "#111",
+        primaryTextColor: "#111",
+        secondaryColor: "#d9d2e9",
+        secondaryBorderColor: "#111",
+        secondaryTextColor: "#111",
+        lineColor: "#111",
+        tertiaryColor: "#fff",
+      },
+      flowchart: {
+        curve: "linear",
+        padding: 12,
+        htmlLabels: true,
+        useMaxWidth: true,
+      },
+    });
+    await mermaid.run({ querySelector: ".mermaid" });
+  </script>

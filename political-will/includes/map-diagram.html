@@ -1,0 +1,24 @@
+<div class="diagram-wrap">
+  <pre class="mermaid">
+flowchart BT
+  classDef main fill:#cfe2f3,stroke:#111,color:#111
+  classDef see fill:#d9d2e9,stroke:#111,color:#111,rx:10,ry:10
+
+  inputs["Policy work, advocacy, warning shots, etc."]
+  leaders["Many leaders of the most influential nations pushing for it"]
+  nego["Negotiations to work out the specifics"]
+  treaty["International AI Treaty"]
+
+  see1["See: &lt;a href='policy-work.html'&gt;Policy work&lt;/a&gt;, &lt;a href='advocacy.html'&gt;Advocacy&lt;/a&gt;, &lt;a href='warning-shots.html'&gt;Warning shots&lt;/a&gt;"]
+  see2["See: &lt;a href='starting-negotiations.html'&gt;Starting treaty negotiations&lt;/a&gt;"]
+  see3["See: &lt;a href='negotiations.html'&gt;International AI negotiations&lt;/a&gt;, &lt;a href='treaty-proposals.html'&gt;Treaty/policy proposals&lt;/a&gt;"]
+
+  inputs --> leaders --> nego --> treaty
+  inputs -.-> see1
+  leaders -.-> see2
+  nego -.-> see3
+
+  class inputs,leaders,nego,treaty main
+  class see1,see2,see3 see
+  </pre>
+</div>

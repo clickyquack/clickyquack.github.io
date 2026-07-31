@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI International Treaty Political Will Map</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module">
+    import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+    mermaid.initialize({
+      startOnLoad: false,
+      securityLevel: "loose",
+      theme: "base",
+      themeVariables: {
+        fontFamily: "Georgia, 'Times New Roman', serif",
+        fontSize: "16px",
+        primaryColor: "#cfe2f3",
+        primaryBorderColor: "#111",
+        primaryTextColor: "#111",
+        secondaryColor: "#d9d2e9",
+        secondaryBorderColor: "#111",
+        secondaryTextColor: "#111",
+        lineColor: "#111",
+        tertiaryColor: "#fff",
+      },
+      flowchart: {
+        curve: "linear",
+        padding: 12,
+        htmlLabels: true,
+        useMaxWidth: true,
+      },
+    });
+    await mermaid.run({ querySelector: ".mermaid" });
+  </script>
+</head>
+<body class="map-page">
+  <header>
+    <p class="site-title"><a href="index.html">AI International Treaty Political Will Map</a></p>
+    <nav>
+      <a class="nav-home" href="../index.html">clickyquack</a>
+      <a href="about.html">About</a> ·
+      <a href="index.html">Map</a> ·
+      <a href="negotiations.html">Negotiations</a> ·
+      <a href="treaty-proposals.html">Treaty/policy proposals</a> ·
+      <a href="starting-negotiations.html">Starting negotiations</a> ·
+      <a href="policy-work.html">Policy work</a> ·
+      <a href="advocacy.html">Advocacy</a> ·
+      <a href="warning-shots.html">Warning shots</a>
+    </nav>
+  </header>
+
+  <main>
+<h1>AI International Treaty Political Will Map</h1>
+<p>Here’s my current top-level map<sup><a href="#fn1">1</a></sup> of how we get to a good international AI treaty:</p>
+<p class="diagram-note">Click the lavender “See:” boxes (or the linked labels inside them) to open the matching sub-pages.</p>
+
+<div class="diagram-wrap">
+  <pre class="mermaid">
+flowchart BT
+  classDef main fill:#cfe2f3,stroke:#111,color:#111
+  classDef see fill:#d9d2e9,stroke:#111,color:#111,rx:10,ry:10
+
+  inputs["Policy work, advocacy, warning shots, etc."]
+  leaders["Many leaders of the most influential nations pushing for it"]
+  nego["Negotiations to work out the specifics"]
+  treaty["International AI Treaty"]
+
+  see1["See: &lt;a href='policy-work.html'&gt;Policy work&lt;/a&gt;, &lt;a href='advocacy.html'&gt;Advocacy&lt;/a&gt;, &lt;a href='warning-shots.html'&gt;Warning shots&lt;/a&gt;"]
+  see2["See: &lt;a href='starting-negotiations.html'&gt;Starting treaty negotiations&lt;/a&gt;"]
+  see3["See: &lt;a href='negotiations.html'&gt;International AI negotiations&lt;/a&gt;, &lt;a href='treaty-proposals.html'&gt;Treaty/policy proposals&lt;/a&gt;"]
+
+  inputs --> leaders --> nego --> treaty
+  inputs -.-> see1
+  leaders -.-> see2
+  nego -.-> see3
+
+  class inputs,leaders,nego,treaty main
+  class see1,see2,see3 see
+  </pre>
+</div>
+
+<p>Sub-pages for this map: <a href="negotiations.html">International AI negotiations</a>, <a href="treaty-proposals.html">Treaty/policy proposals</a>, <a href="starting-negotiations.html">Starting treaty negotiations</a>, <a href="policy-work.html">Policy work</a>, <a href="advocacy.html">Advocacy</a>, <a href="warning-shots.html">Warning shots</a></p>
+<h2>Top external resources</h2>
+<ul>
+<li>“<a href="https://www.lesswrong.com/posts/EexsebbYhbe2gXkPP/the-current-bottleneck-is-political-will-not-research">The current bottleneck is political will, not research</a>”, 11 Jul 2026. The best external overview of this problem, its importance, and ideas for what to focus on that I am currently aware of.</li>
+</ul>
+<p id="fn1"><sup>1</sup> This map is mostly inspired by “What should the next steps be?” from the <a href="https://red-lines.ai/#faq">Global Call for AI Red Lines FAQ</a>, and <a href="https://res.cloudinary.com/lesswrong-2-0/image/upload/v1774542610/lexical_client_uploads/lqxb7qcersrimb9nltkp.png">this flowchart</a> from ControlAI’s 2025 Impact Statement.</p>
+  </main>
+
+  <footer>
+    <a href="../index.html">clickyquack</a>
+  </footer>
+</body>
+</html>
