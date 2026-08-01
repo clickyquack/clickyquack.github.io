@@ -1,14 +1,14 @@
 ---
-title: AI International Treaty Political Will Map
+title: AI Political Will Map
 output: index.html
 body_class: map-page
 extra_head: mermaid
 full_title: true
 ---
 
-# AI International Treaty Political Will Map
+# AI International Will Map
 
-Here’s my current top-level map<sup><a href="#fn1">1</a></sup> of how we get to a good international AI treaty:
+Here’s my current top-level map<sup><a href="#fn1">1</a></sup> of how we get to an effective international AI treaty:
 
 <p class="diagram-note">Click the lavender “See:” boxes (or the linked labels inside them) to open the matching sub-pages.</p>
 
