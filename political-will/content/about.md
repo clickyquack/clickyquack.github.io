@@ -13,7 +13,7 @@ There's a [strong argument to be made](https://www.lesswrong.com/posts/EexsebbYh
 
 ### Future project developments
 
-This should be migrated to live on a dedicated website rather than a Google Doc relatively soon to give it more of a sense of legitimacy, and because I have some ideas for features that would make this work better than it could on a Google Doc (first would be letting readers click links within the diagrams themselves). I expect development of the content itself to look something like: having a list maintained of early-stage ideas for what to prioritize next, both for the project as a whole and for specific sub-sections, and a way to see the most recent additions/changes. Increasingly more pages will be broken into sub-maps and/or sub-pages insofar as this is helpful for the greater goal of the project. It’s sort of a constant work-in-progress, although I expect I will likely eventually decrease or even cease my efforts on this project as it helps me find higher-leverage ways to contribute directly.
+I'd like to eventually have a dedicated page(s) for a list of early-stage ideas for what to prioritize next, both for the project as a whole and for specific sub-sections, and a way to see the most recent additions/changes. Increasingly more pages will be broken into sub-maps and/or sub-pages insofar as this is helpful for the greater goal of the project. It’s sort of a constant work-in-progress, although I expect I will likely eventually decrease or even cease my efforts on this project as it helps me find higher-leverage ways to contribute directly.
 
 ### Future content
 
@@ -29,7 +29,7 @@ Off the top of my head, some ideas for what I want to work on for this next, rou
 
 ### Open collaboration?
 
-In the spirit of “minimizing friction to contribute”, I’d like to try giving the project itself a Wikipedia-like open collaboration structure, where users start out only able to make and discuss proposals for improvements, then gain more permissions to make changes directly if they prove to be consistently high-quality. The potential upside seems high, and the cost of trying low; if it proves to be more trouble than it’s worth, I could simply discard it. If I do this I would need to phase out use of first-person pronouns in the project’s content. Also, open-collaboration aside, wiki or wiki-like software would be a good fit for this project’s goal.
+In the spirit of “minimizing friction to contribute”, I’d like to potentially try giving the project itself a Wikipedia-like open collaboration structure, where users start out only able to make and discuss proposals for improvements, then gain more permissions to make changes directly if they prove to be consistently high-quality. The potential upside seems high, and the cost of trying low; if it proves to be more trouble than it’s worth, I could simply discard it. If I do this I would need to phase out use of first-person pronouns in the project’s content. Also, open-collaboration aside, wiki or wiki-like software would be a good fit for this project’s goal.
 
 ### Is this overkill for the purpose it’s trying to serve?
 

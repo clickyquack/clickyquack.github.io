@@ -10,7 +10,7 @@ Eventually this page should break down different types of advocacy and try to ev
 
 From [ControlAI’s 2025 Impact Report](https://controlai.org/impact-report-2025):
 
-<img class="content-img" src="assets/controlai-impact.png" alt="Flowchart from ControlAI’s 2025 Impact Report">
+<img class="content-img" src="assets/controlai-diagram.png" alt="Flowchart from ControlAI’s 2025 Impact Report">
 
 ## Top external resources
 
