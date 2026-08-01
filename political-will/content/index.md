@@ -6,7 +6,7 @@ extra_head: mermaid
 full_title: true
 ---
 
-# AI International Will Map
+# AI Political Will Map
 
 Here’s my current top-level map<sup><a href="#fn1">1</a></sup> of how we get to an effective international AI treaty:
 
